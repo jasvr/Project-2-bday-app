@@ -1,4 +1,4 @@
-# Project-2-bday-app
+# Project-2-bday-app (run through spell checker before submitting)
 Users are able to fill out an online waiver prior to an event.
 
 ## Current Features
