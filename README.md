@@ -71,7 +71,7 @@ edit desc.
 
 ## Approach taken to build app
 
-1. I used an application called MedlyText to make a master list of all the things I need to do for my project. The app allows you to create a journal and add notes inside them with easy buttons at the top to do things like; make a To Do list, Ordered/Unordered list, embed active codeblocks, add headers (H1, H2 and H3).
+I used an application called MedlyText to make a master list of all the things I need to do for my project. The app allows you to create a journal and add notes inside them with easy buttons at the top to do things like; make a To Do list, Ordered/Unordered list, embed active codeblocks, add headers (H1, H2 and H3).
 
 I created a journal for the project and named my first note  "P0 - Project 2 Plan". This note is like my table of contents that has all the steps in chronological order including more specific goals within them. 
 
@@ -81,6 +81,8 @@ I then took each numbered bullet and created a note for each one. This is a help
 
 images here 
 
+
+As I started to go through the steps, I realized I had to do somethings before others and it was easy to renumber each chunk. 
 
 
 ## Features
@@ -110,7 +112,7 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Jasmin Vargas** - *JV* - [PurpleBooth](https://github.com/PurpleBooth)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
