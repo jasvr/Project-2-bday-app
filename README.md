@@ -84,6 +84,11 @@ images here
 
 As I started to go through the steps, I realized I had to do somethings before others and it was easy to renumber each chunk. 
 
+ Link to your user stories – who are your users, what do they want and why?
+ 
+ 
+ Link to your wireframes – sketches of major views / interfaces in your application
+
 
 ## Features
 
