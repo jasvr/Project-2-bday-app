@@ -12,14 +12,6 @@ Gold//Create login information or use Google API to login to fill out waiver(in 
 
 ## Models
 ##Bronze
-*Guest Form
--Customer_ID
--FirstName
--LastName
--Email
--Cell Number
-
-##Silver
 *List of people having bday parties (Party Hosts)
 -Customer_ID
 -FirstName
@@ -28,6 +20,16 @@ Gold//Create login information or use Google API to login to fill out waiver(in 
 -Cell Number
 -Date_of_event 
 -Time_of_event
+
+
+
+##Silver
+*Guest Form
+-Customer_ID
+-FirstName
+-LastName
+-Email
+-Cell Number
 
 Create (add a new event - connect to name of persons bday)
 Read (view list)
