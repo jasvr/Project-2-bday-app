@@ -1,0 +1,26 @@
+{
+  "name": "project-2-bday-app",
+  "version": "1.0.0",
+  "description": "make waivers electronically available - no more hassle dealing with paper!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords":[
+    "Express",
+    "MongoDB",
+    "Mongoose",
+    "Handlebars",
+    "Waiver"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasvr/Project-2-bday-app.git"
+  },
+  "author": "JV",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jasvr/Project-2-bday-app/issues"
+  },
+  "homepage": "https://github.com/jasvr/Project-2-bday-app#readme"
+}
