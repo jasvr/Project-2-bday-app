@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords":[
+  "keywords": [
     "Express",
     "MongoDB",
     "Mongoose",
@@ -22,5 +22,11 @@
   "bugs": {
     "url": "https://github.com/jasvr/Project-2-bday-app/issues"
   },
-  "homepage": "https://github.com/jasvr/Project-2-bday-app#readme"
+  "homepage": "https://github.com/jasvr/Project-2-bday-app#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "handlebars": "^4.1.0",
+    "mongoose": "^5.4.16"
+  }
 }
