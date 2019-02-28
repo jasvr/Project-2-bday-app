@@ -10,6 +10,40 @@ Silver//Recieve email to fill out form once complete a copy of the signed email 
 
 Gold//Create login information or use Google API to login to fill out waiver(in case user comes to another event, form filled out already)
 
+## Models
+##Bronze
+*Guest Form
+-Customer_ID
+-FirstName
+-LastName
+-Email
+-Cell Number
+
+##Silver
+*List of people having bday parties (Party Hosts)
+-Customer_ID
+-FirstName
+-LastName
+-Email
+-Cell Number
+-Date_of_event 
+-Time_of_event
+
+Create (add a new event - connect to name of persons bday)
+Read (view list)
+Update (update time and date in case of snowday)
+Delete (Once party is over remove from list -easier for people 
+        who have upcoming parties to see list)
+
+
+
+
+Create (new person to sign waiver)
+Read (be able to read waiver)
+NO update (submit once)
+NO delete
+
+
 
 ### Prerequisites
 
