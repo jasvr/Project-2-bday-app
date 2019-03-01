@@ -18,6 +18,7 @@ module.exports = {
         res.redirect("/");
     },
     delete: function(req, res) {
-        res.redirect("/");
-    }
+    res.redirect("/");
+}
 };
+

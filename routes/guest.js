@@ -2,9 +2,6 @@ const express = require('express');
 const router = express.Router();
 const itemController = require('../controllers/guest');
 
-//index
-router.get("/", itemController.index);
-
 //new- render view
 router.get("/new", itemController.new);
 
@@ -23,4 +20,4 @@ router.put("/:id", itemController.update);
 //delete- take body of form, remove from db, then redirect to home or o/page
 router.delete("/:id", itemController.delete);
 
-module.exports = router;
+module.exports = router;   
