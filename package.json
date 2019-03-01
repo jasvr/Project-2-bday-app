@@ -4,7 +4,7 @@
   "description": "make waivers electronically available - no more hassle dealing with paper!",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev-server": "nodemon index.js"
   },
   "keywords": [
     "Express",
@@ -27,6 +27,7 @@
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
+    "express-handlebars": "^3.0.2",
     "handlebars": "^4.1.0",
     "hbs": "^4.0.2",
     "mongoose": "^5.4.16"

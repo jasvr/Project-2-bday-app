@@ -22,7 +22,6 @@ Gold//Create login information or use Google API to login to fill out waiver(in 
 -Time_of_event
 
 
-
 ##Silver
 *Guest Form
 -Customer_ID

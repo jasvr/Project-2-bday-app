@@ -9,6 +9,8 @@ const Guest = new mongoose.Schema({
     agree: Boolean
 });
 
+
+
 module.exports = mongoose.model("Guest", Guest);
 
 //to connect to db have to through this object
