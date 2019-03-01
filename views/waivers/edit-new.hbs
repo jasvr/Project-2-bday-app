@@ -1,0 +1,15 @@
+<div class="container">
+    {{#if model.new}}
+    <h1>Add Waiver</h1>
+    {{else}}
+    <h1>Update Waiver</h1>
+    {{/if}}
+    <div class="row">
+        <form method="{{model.method}}" action="{{model.action}}">
+            <div class="form-group">
+                <button class="btn btn-primary" type="submit">{{model.submitText}}</button>
+                <button class="btn btn-danger" type="submit">{{model.cancelText}}</button>
+            </div>
+        </form>
+    </div>
+</div>

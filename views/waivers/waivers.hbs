@@ -1,0 +1,40 @@
+<h1>Waiver view</h1>
+{{diagnostics}}
+
+<div class="container">
+    <div class="row">
+        <a class="btn btn-primary" href="/waivers/add">Add Waiver</a>
+    </div>
+    <div class="row">
+        <table class="table table-stiped">
+            <thead>
+                <tr role="row">
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>email</th>
+                    <th>Cell Phone #</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- 
+                <td>Fred</td>
+                <td>Johnson</td>
+                <td>fj@nowhere.com</td>
+                <td>unknown</td>
+                <td><button href="/waivers/edit&waiverid=84783">Edit</button></td>
+                <td><button href="/waivers/delete?waiverid=84783">Delete</button></td>
+                -->
+                {{#each model.waiver}}
+                    <td>{{this.firstName}}</td>
+                    <td>{{this.lastName}}</td>
+                    <td>{{this.email}}</td>
+                    <td>{{this.cellNumber}}</td>
+                    <td><a class="btn btn-secondary" href="/waivers/edit&waiverid={{this.id}}">Edit</a></td>
+                    <td><a class="btn btn-danger" href="/waivers/delete?waiverid={{this.id}}">Delete</a></td>
+                {{/each}}
+            </tbody>
+        </table>
+    </div>
+</div>

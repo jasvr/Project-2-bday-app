@@ -4,7 +4,8 @@
   "description": "make waivers electronically available - no more hassle dealing with paper!",
   "main": "index.js",
   "scripts": {
-    "dev-server": "nodemon index.js"
+    "dev-server": "nodemon index.js",
+    "start": "node index.js"
   },
   "keywords": [
     "Express",
@@ -30,6 +31,7 @@
     "express-handlebars": "^3.0.2",
     "handlebars": "^4.1.0",
     "hbs": "^4.0.2",
-    "mongoose": "^5.4.16"
+    "mongoose": "^5.4.16",
+    "uuid": "^3.3.2"
   }
 }

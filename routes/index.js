@@ -5,6 +5,6 @@ router.get("/", function(req, res) {
     res.render("index");
 });
 
-router.use('/waivers', require("./guest.js"));
+router.use('/waivers', require('./waivers.routes'));
 
 module.exports = router;
